@@ -4,6 +4,11 @@ there are multiple interprator of linux shell like :- base,sh,fing other
 base is more advance version where we can do lot more thing like useing loop , condition operator like used in java and other language. and 
 sh is older interpretor we can not do lot more as we can in bash interpretor.
 
+1> ls -> list all current file in folder
+2> lst-ltr -> display all file with their permission like:- rwx r-read,w-write,x-execution
+3> chmod +x -> give permision to file to be executable like:- if before chmod+x permission of file like rw-- only after this command it is rwx--
+
+
 #!/bin/bash - tell operating system to use base interprator
 #! - called shebang to notify interprator
 
