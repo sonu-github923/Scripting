@@ -29,6 +29,12 @@ hostnames=$(hostname) # hostname is prebuild command of linux if we want to assi
 rename="kumar"
 renamee=$(hostname)
 
+#array--------------------
+
+arr=(1 2 hello "hai sonu" 87.54) - declare array
+
+https://www.youtube.com/watch?v=TtGM9GfBuok&t=1643s
+
 
 
 
