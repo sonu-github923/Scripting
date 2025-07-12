@@ -1,0 +1,27 @@
+shell is a interface to interact with linux kernal
+
+there are multiple interprator of linux shell like :- base,sh,fing other
+base is more advance version where we can do lot more thing like useing loop , condition operator like used in java and other language. and 
+sh is older interpretor we can not do lot more as we can in bash interpretor.
+
+#!/bin/bash - tell operating system to use base interprator
+#! - called shebang to notify interprator
+
+command understanding ------------------------
+
+
+#!/bin/bash  - shebang
+
+#declaring varibale and make sure no space between before = and after = like a = 10 is wroung right is a=10
+
+a=10
+name="sonu"
+age=27
+
+echo "my name is $name and my age is $age and a value is $a" # we can print varibale value assign $ before varibale name in echo
+
+hostnames=$(hostname) # hostname is prebuild command of linux if we want to assign value of than put command in $()
+rename="kumar"
+renamee=$(hostname)
+
+
