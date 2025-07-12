@@ -7,7 +7,7 @@ sh is older interpretor we can not do lot more as we can in bash interpretor.
 1> ls -> list all current file in folder
 2> lst-ltr -> display all file with their permission like:- rwx r-read,w-write,x-execution
 3> chmod +x -> give permision to file to be executable like:- if before chmod+x permission of file like rw-- only after this command it is rwx--
-
+4> cat filename -> like cat secound.sh mean it display all content of file in console no need to open the file
 
 #!/bin/bash - tell operating system to use base interprator
 #! - called shebang to notify interprator
@@ -25,8 +25,10 @@ age=27
 
 echo "my name is $name and my age is $age and a value is $a" # we can print varibale value assign $ before varibale name in echo
 
-hostnames=$(hostname) # hostname is prebuild command of linux if we want to assign value of than put command in $()
+hostnames=$(hostname) # hostname is prebuild command of linux if we want to assign value of hostname than put command in $()
 rename="kumar"
 renamee=$(hostname)
+
+
 
 
