@@ -33,7 +33,37 @@ renamee=$(hostname)
 
 arr=(1 2 hello "hai sonu" 87.54) - declare array
 
-https://www.youtube.com/watch?v=TtGM9GfBuok&t=1643s
+
+
+#---------------------operation on string ------------------------
+
+myvar= "Hello this is sonu"
+
+length of string = ${#myvar}
+to upper case = ${myvar^^}
+to lower case = ${myvar,,}
+replace word hello to hai = ${myvar/Hello/hai} - ${varibale name / original word/ replacement word}
+
+#----------------user interaction --------------------------------
+
+read -p "please enter your name ="name - here -p allow to enter you message and you can write read name
+echo "your name is = $name"
+
+#-------------arithmetic operation --------------------
+
+we use 'let' command to do mathematical operation
+
+x=10
+y=20
+
+let sum =$x+$y
+let mul =$x*$y
+
+or 
+
+echo "sum = $(($x+$y))"
+
+
 
 
 
